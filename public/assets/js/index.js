@@ -25,7 +25,6 @@ var saveNote = function(note) {
 };
 
 // BONUS A function for deleting a note from the db
-//change how IDs are assigned
 var deleteNote = function(id) {
   return $.ajax({
     url: "api/notes/" + id,
