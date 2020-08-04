@@ -29,7 +29,7 @@ app.post('/api/notes',(req,res) =>{
 
 //saves new note to db.json object
 saveToNotes=(newNote, notesArray)=>{
-    let id = notesArray.length;
+    let id = notesArray.length+1;
     newNote.id = id;
     notesArray.push(newNote);
     fs.writeFileSync(path.join(__dirname,'./db/db.json'),JSON.stringify({notes: notesArray}),null,2);
