@@ -1,1 +1,1 @@
-{"notes":[{"title":"Test Title","text":"Test text","id":0},{"title":"A second Note","text":"theres is more text here","id":1},{"title":"Test Post3","text":"does POST work3?","id":2},{"title":"Test Post4","text":"does POST work4?","id":3}]}
+{"notes":[{"title":"Push to Heroku","text":"Save and push to Heroku","id":0},{"title":"Add delete functionality","text":"How to delete a note?","id":1},{"title":"Start Module 12","text":"Finish lessons 1 & 2 by Tuesday","id":2}]}
